@@ -13,7 +13,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  * @author <a href="https://github.com/manneia">lkx</a>
  */
 @SpringBootApplication(exclude = {RedisAutoConfiguration.class})
-@MapperScan("com.yupi.springbootinit.mapper")
+@MapperScan("com.luo.springbootinit.mapper")
 @EnableScheduling
 @EnableAspectJAutoProxy(proxyTargetClass = true, exposeProxy = true)
 public class MainApplication {
